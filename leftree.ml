@@ -7,7 +7,7 @@ type 'a leftree = LT_Empty | LT_Node of 'a * int * 'a leftree * 'a leftree;;
 let lt_empty = LT_Empty;;
 let lt_single v = LT_Node (v, 0, LT_Empty, LT_Empty);;
 
-let lt_height t = match t with 
+let lt_height t = match t with
   LT_Empty -> -1 |
   LT_Node (_, height, _, _) -> height;;
 
