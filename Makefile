@@ -1,3 +1,6 @@
+# Copyright © 2005 Jakub Wilk <jwilk@jwilk.net>
+# SPDX-License-Identifier: MIT
+
 OCAMLC = ocamlopt
 
 all: leftree

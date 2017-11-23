@@ -1,3 +1,7 @@
+(* Copyright © 2004 Jakub Wilk <jwilk@jwilk.net>
+ * SPDX-License-Identifier: MIT
+ *)
+
 type 'a leftree = LT_Empty | LT_Node of 'a * int * 'a leftree * 'a leftree;;
 
 let lt_empty = LT_Empty;;
