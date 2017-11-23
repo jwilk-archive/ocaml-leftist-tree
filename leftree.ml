@@ -60,4 +60,4 @@ let args = List.map int_of_string (List.tl (Array.to_list Sys.argv)) in
   let argtree = lt_create args in
     lt_print argtree;;
 
-(* vim: set et ts=2 sw=2 inde=-1: *)
+(* vim: set et ts=2 sts=2 sw=2 inde=-1: *)

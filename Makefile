@@ -12,3 +12,5 @@ clean:
 	rm -f leftree leftree.cmi leftree.cmx leftree.o
 
 .PHONY: all clean distclean dist
+
+# vim:ts=4 sts=4 sw=4 noet
